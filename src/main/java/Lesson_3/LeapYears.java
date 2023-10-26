@@ -1,4 +1,4 @@
-package Lesson_2;
+package Lesson_3;
 
 public class LeapYears {
     public static boolean isLeapYear(int year) {

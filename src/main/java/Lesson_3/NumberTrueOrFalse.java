@@ -1,6 +1,4 @@
-package Lesson_2;
-
-import java.util.Scanner;
+package Lesson_3;
 
 public class NumberTrueOrFalse {
     public static boolean numberTrueOrFalse (int a) {

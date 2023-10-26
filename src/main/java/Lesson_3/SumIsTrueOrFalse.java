@@ -1,4 +1,4 @@
-package Lesson_2;
+package Lesson_3;
 
 public class SumIsTrueOrFalse {
     public static boolean sumIsTrueOrFalse (int a , int b) {

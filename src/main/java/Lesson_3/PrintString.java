@@ -1,4 +1,4 @@
-package Lesson_2;
+package Lesson_3;
 
 public class PrintString {
     public static void printString (String str, int count) {

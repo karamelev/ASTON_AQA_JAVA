@@ -1,4 +1,4 @@
-package Lesson_1;
+package Lesson_2;
 
 public class CheckSumSign {
     public void checkSumSign () {

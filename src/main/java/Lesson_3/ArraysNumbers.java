@@ -1,5 +1,5 @@
 
-package Lesson_2;
+package Lesson_3;
 import java.util.Arrays;
 
 
@@ -44,7 +44,6 @@ public class ArraysNumbers {
                 } else array[i][j] = 0;
             }
         }
-//        вывод на печать массива
             for (int i = 0; i < array.length; i++) {
                 for (int j = 0; j < array[i].length; j++) {
                     System.out.print(array[i][j] + " ");
