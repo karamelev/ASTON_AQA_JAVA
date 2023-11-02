@@ -2,26 +2,26 @@ package Lesson_5.geometricFigures;
 
 public class AppMain {
     public static void main(String[] args) {
-        Cycle cycle = new Cycle("Зеленый", "Красный", 5);
-        System.out.println("Площадь круга = " + cycle.getArea());
-        System.out.println("Периметр круга = " + cycle.getPerimeter());
-        System.out.println("Цвет фона круга :" + cycle.fillColor);
-        System.out.println("Цвет границ круга :" + cycle.borderColor);
+        Cycle cycle = new Cycle("green", "red", 5);
+        System.out.println("Circle area: = " + cycle.getArea());
+        System.out.println("Circle perimeter: = " + cycle.getPerimeter());
+        System.out.println("Circle fill color:" + cycle.fillColor);
+        System.out.println("Circle border color :" + cycle.borderColor);
         System.out.println("----------------------------------------");
 
-        Square square = new Square("Желтый", "Черный", 11.23,16);
-        System.out.println("Площадь прямоугольника = " + square.getArea());
-        System.out.println("Периметр прямоугольника = " + square.getPerimeter());
-        System.out.println("Цвет фона прямоугольника: " + square.fillColor);
-        System.out.println("Цвет границ прямоугольника: " + square.borderColor);
+        Rectangle square = new Rectangle("yellow", "black", 11.23,16);
+        System.out.println("Rectangle area = " + square.getArea());
+        System.out.println("Rectangle perimeter = " + square.getPerimeter());
+        System.out.println("Rectangle fill color: " + square.fillColor);
+        System.out.println("Rectangle border color: " + square.borderColor);
         System.out.println("----------------------------------------");
 
 
-        Triangular triangular = new Triangular("Белый", "Синий", 3,4,5);
-        System.out.println("Площадь треугольника = " + triangular.getArea());
-        System.out.println("Периметр треугольника = " + triangular.getPerimeter());
-        System.out.println("Цвет фона треугольника: " + triangular.fillColor);
-        System.out.println("Цвет границ треугольника: " + triangular.borderColor);
+        Triangular triangular = new Triangular("white", "blue", 3,4,5);
+        System.out.println("Triangular area = " + triangular.getArea());
+        System.out.println("Triangular perimeter = " + triangular.getPerimeter());
+        System.out.println("Triangular fill color: " + triangular.fillColor);
+        System.out.println("Triangular border color: " + triangular.borderColor);
         System.out.println("----------------------------------------");
 
     }

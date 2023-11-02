@@ -13,7 +13,7 @@ public class Plate {
     }
 
     public void info() {
-        System.out.println("в тарелке: " + food + " еды");
+        System.out.println("in a plate: " + food + " food");
     }
 }
 

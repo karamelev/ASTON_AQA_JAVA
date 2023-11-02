@@ -22,21 +22,21 @@ public abstract class Animal {
 
     public void run(int distance) {
         if (distance <= maxRunDistance) {
-            System.out.println(type + " " + name + " пробежал " + distance + "м.");
+            System.out.println(type + " " + name + " was running " + distance + "м.");
         } else {
-            System.out.println(type + " " + name + " не смог пробежать " + distance + "м.");
+            System.out.println(type + " " + name + " couldn’t run " + distance + "м.");
         }
     }
 
     public void swim(int distance) {
         if (maxSwimDistance <= 0) {
-            System.out.println(type + " " + name + " не умеет плавать " + distance + "м.");
+            System.out.println(type + " " + name + " can't swim " + distance + "м.");
             return;
         }
         if (distance <= maxSwimDistance) {
-            System.out.println(type + " " + name + "проплыл " + distance + "м.");
+            System.out.println(type + " " + name + "swam " + distance + "м.");
         } else {
-            System.out.println(type + " " + name + "на смог проплыть " + distance + "м.");
+            System.out.println(type + " " + name + "couldn’t swim " + distance + "м.");
         }
     }
 
