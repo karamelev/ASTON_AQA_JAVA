@@ -21,5 +21,4 @@ public class Matrix {
         }
         System.out.println("Сумма всех элементов массива: " + sum);
     }
-
 }

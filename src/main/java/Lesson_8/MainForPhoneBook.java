@@ -14,10 +14,7 @@ public class MainForPhoneBook {
         System.out.println("Phone numbers for Кузнецовф: " + phoneBook.get("Кузнецов"));
         System.out.println("Phone numbers for Валодиной: " + phoneBook.get("Валодина"));
         System.out.println("Phone numbers for Каверинф: " + phoneBook.get("Каверин"));
-
-
         }
-
     }
 
 

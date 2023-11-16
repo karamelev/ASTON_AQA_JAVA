@@ -8,7 +8,7 @@ public class Plate {
         this.food = food;
     }
 
-    public void addFoodInPlant (int addFood) {
+    public void addFoodInPlate (int addFood) {
         food += addFood;
     }
 
